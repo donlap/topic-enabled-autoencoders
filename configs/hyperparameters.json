@@ -1,0 +1,518 @@
+{
+  "WMF": {
+    "books": {
+      "factors": 128,
+      "regularization": 0.01
+    },
+    "cds": {
+      "factors": 128,
+      "regularization": 0.01
+    },
+    "gowalla": {
+      "factors": 64,
+      "regularization": 0.01
+    },
+    "ml-1m": {
+      "factors": 128,
+      "regularization": 0.01
+    },
+    "retail": {
+      "factors": 128,
+      "regularization": 0.01
+    },
+    "steam": {
+      "factors": 64,
+      "regularization": 0.01
+    }
+  },
+  "LightGCN": {
+    "books": {
+      "layers": 2,
+      "learning_rate": 0.001
+    },
+    "cds": {
+      "layers": 2,
+      "learning_rate": 0.01
+    },
+    "gowalla": {
+      "layers": 2,
+      "learning_rate": 0.01
+    },
+    "ml-1m": {
+      "layers": 2,
+      "learning_rate": 0.001
+    },
+    "retail": {
+      "layers": 3,
+      "learning_rate": 0.001
+    },
+    "steam": {
+      "layers": 3,
+      "learning_rate": 0.001
+    }
+  },
+  "SLIMElastic": {
+    "books": {
+      "alpha": 0.01,
+      "l1_ratio": 0.01
+    },
+    "cds": {
+      "alpha": 0.01,
+      "l1_ratio": 0.01
+    },
+    "gowalla": {
+      "alpha": 0.01,
+      "l1_ratio": 0.001
+    },
+    "ml-1m": {
+      "alpha": 0.1,
+      "l1_ratio": 0.01
+    },
+    "retail": {
+      "alpha": 0.1,
+      "l1_ratio": 0.01
+    },
+    "steam": {
+      "alpha": 0.1,
+      "l1_ratio": 0.001
+    }
+  },
+  "ADMMSLIM": {
+    "books": {
+      "lambda1": 0.5,
+      "lambda2": 50.0
+    },
+    "cds": {
+      "lambda1": 0.5,
+      "lambda2": 200.0
+    },
+    "gowalla": {
+      "lambda1": 0.5,
+      "lambda2": 500.0
+    },
+    "ml-1m": {
+      "lambda1": 0.5,
+      "lambda2": 500.0
+    },
+    "retail": {
+      "lambda1": 5.0,
+      "lambda2": 500.0
+    },
+    "steam": {
+      "lambda1": 1.0,
+      "lambda2": 500.0
+    }
+  },
+  "NCEPLRec": {
+    "books": {
+      "rank": 400,
+      "regularization": 1000.0
+    },
+    "cds": {
+      "rank": 400,
+      "regularization": 1000.0
+    },
+    "gowalla": {
+      "rank": 400,
+      "regularization": 10000.0
+    },
+    "ml-1m": {
+      "rank": 400,
+      "regularization": 10000.0
+    },
+    "retail": {
+      "rank": 400,
+      "regularization": 10000.0
+    },
+    "steam": {
+      "rank": 400,
+      "regularization": 10000.0
+    }
+  },
+  "RecVAE": {
+    "books": {
+      "gamma": 0.005,
+      "latent_dim": 200
+    },
+    "cds": {
+      "gamma": 0.005,
+      "latent_dim": 200
+    },
+    "gowalla": {
+      "gamma": 0.005,
+      "latent_dim": 200
+    },
+    "ml-1m": {
+      "gamma": 0.0025,
+      "latent_dim": 200
+    },
+    "retail": {
+      "gamma": 0.0025,
+      "latent_dim": 200
+    },
+    "steam": {
+      "gamma": 0.005,
+      "latent_dim": 200
+    }
+  },
+  "LDA": {
+    "books": {
+      "doc_topic_prior": 0.5,
+      "max_iter": 20,
+      "topic_word_prior": null
+    },
+    "cds": {
+      "doc_topic_prior": 0.5,
+      "max_iter": 100,
+      "topic_word_prior": null
+    },
+    "gowalla": {
+      "doc_topic_prior": 0.05,
+      "max_iter": 20,
+      "topic_word_prior": 0.1
+    },
+    "ml-1m": {
+      "doc_topic_prior": 0.5,
+      "max_iter": 100,
+      "topic_word_prior": 0.1
+    },
+    "retail": {
+      "doc_topic_prior": 0.5,
+      "max_iter": 20,
+      "topic_word_prior": null
+    },
+    "steam": {
+      "doc_topic_prior": 0.5,
+      "max_iter": 20,
+      "topic_word_prior": null
+    }
+  },
+  "ETM": {
+    "books": {
+      "dropout": 0.5,
+      "hidden_size": 800,
+      "kl_weight": 0.2,
+      "learning_rate": 0.01
+    },
+    "cds": {
+      "dropout": 0.0,
+      "hidden_size": 400,
+      "kl_weight": 0.5,
+      "learning_rate": 0.005
+    },
+    "gowalla": {
+      "dropout": 0.0,
+      "hidden_size": 800,
+      "kl_weight": 0.1,
+      "learning_rate": 0.01
+    },
+    "ml-1m": {
+      "dropout": 0.0,
+      "hidden_size": 800,
+      "kl_weight": 0.1,
+      "learning_rate": 0.005
+    },
+    "retail": {
+      "dropout": 0.0,
+      "hidden_size": 800,
+      "kl_weight": 0.5,
+      "learning_rate": 0.005
+    },
+    "steam": {
+      "dropout": 0.5,
+      "hidden_size": 400,
+      "kl_weight": 0.5,
+      "learning_rate": 0.002
+    }
+  },
+  "ECRTM": {
+    "books": {
+      "ecr_weight": 20.0,
+      "kl_weight": 0.2,
+      "learning_rate": 0.005,
+      "temperature": 0.2
+    },
+    "cds": {
+      "ecr_weight": 20.0,
+      "kl_weight": 0.1,
+      "learning_rate": 0.005,
+      "temperature": 0.2
+    },
+    "gowalla": {
+      "ecr_weight": 20.0,
+      "kl_weight": 0.2,
+      "learning_rate": 0.005,
+      "temperature": 0.1
+    },
+    "ml-1m": {
+      "ecr_weight": 50.0,
+      "kl_weight": 0.5,
+      "learning_rate": 0.005,
+      "temperature": 0.2
+    },
+    "retail": {
+      "ecr_weight": 200.0,
+      "kl_weight": 0.2,
+      "learning_rate": 0.005,
+      "temperature": 0.1
+    },
+    "steam": {
+      "ecr_weight": 200.0,
+      "kl_weight": 0.5,
+      "learning_rate": 0.005,
+      "temperature": 0.1
+    }
+  },
+  "Mult-VAE": {
+    "books": {
+      "dropout": 0.5,
+      "kl_weight": 0.2,
+      "learning_rate": 0.003
+    },
+    "cds": {
+      "dropout": 0.5,
+      "kl_weight": 0.1,
+      "learning_rate": 0.003
+    },
+    "gowalla": {
+      "dropout": 0.0,
+      "kl_weight": 0.5,
+      "learning_rate": 0.003
+    },
+    "ml-1m": {
+      "dropout": 0.5,
+      "kl_weight": 0.5,
+      "learning_rate": 0.003
+    },
+    "retail": {
+      "dropout": 0.0,
+      "kl_weight": 0.5,
+      "learning_rate": 0.003
+    },
+    "steam": {
+      "dropout": 0.0,
+      "kl_weight": 0.5,
+      "learning_rate": 0.003
+    }
+  },
+  "NMF": {
+    "books": {
+      "alpha": 0.0,
+      "init": "nndsvda",
+      "l1_ratio": 0.0
+    },
+    "cds": {
+      "alpha": 0.0,
+      "init": "nndsvd",
+      "l1_ratio": 0.0
+    },
+    "gowalla": {
+      "alpha": 0.01,
+      "init": "nndsvd",
+      "l1_ratio": 1.0
+    },
+    "ml-1m": {
+      "alpha": 0.01,
+      "init": "nndsvd",
+      "l1_ratio": 1.0
+    },
+    "retail": {
+      "alpha": 0.1,
+      "init": "nndsvd",
+      "l1_ratio": 1.0
+    },
+    "steam": {
+      "alpha": 0.01,
+      "init": "nndsvd",
+      "l1_ratio": 0.0
+    }
+  },
+  "NMF-ppSPA": {
+    "books": {
+      "alpha": 0.01,
+      "init": "nndsvda",
+      "l1_ratio": 0.5
+    },
+    "cds": {
+      "alpha": 0.01,
+      "init": "nndsvda",
+      "l1_ratio": 0.5
+    },
+    "gowalla": {
+      "alpha": 0.1,
+      "init": "nndsvd",
+      "l1_ratio": 1.0
+    },
+    "ml-1m": {
+      "alpha": 0.0,
+      "init": "nndsvd",
+      "l1_ratio": 0.0
+    },
+    "retail": {
+      "alpha": 0.0,
+      "init": "nndsvd",
+      "l1_ratio": 0.0
+    },
+    "steam": {
+      "alpha": 0.1,
+      "init": "nndsvda",
+      "l1_ratio": 0.0
+    }
+  },
+  "EASE": {
+    "books": {
+      "lambda": 50.0
+    },
+    "cds": {
+      "lambda": 50.0
+    },
+    "gowalla": {
+      "lambda": 100.0
+    },
+    "ml-1m": {
+      "lambda": 1000.0
+    },
+    "retail": {
+      "lambda": 500.0
+    },
+    "steam": {
+      "lambda": 1000.0
+    }
+  },
+  "RW": {
+    "books": {
+      "lambda": 250.0
+    },
+    "cds": {
+      "lambda": 1000.0
+    },
+    "gowalla": {
+      "lambda": 50.0
+    },
+    "ml-1m": {
+      "lambda": 50.0
+    },
+    "retail": {
+      "lambda": 50.0
+    },
+    "steam": {
+      "lambda": 500.0
+    }
+  },
+  "Symmetric": {
+    "books": {
+      "lambda": 1000.0
+    },
+    "cds": {
+      "lambda": 100.0
+    },
+    "gowalla": {
+      "lambda": 1000.0
+    },
+    "ml-1m": {
+      "lambda": 50.0
+    },
+    "retail": {
+      "lambda": 50.0
+    },
+    "steam": {
+      "lambda": 100.0
+    }
+  },
+  "DAN": {
+    "books": {
+      "alpha": 0.25,
+      "lambda": 1000.0,
+      "user_exponent": 0.2
+    },
+    "cds": {
+      "alpha": 0.25,
+      "lambda": 250.0,
+      "user_exponent": 0.5
+    },
+    "gowalla": {
+      "alpha": 0.0,
+      "lambda": 50.0,
+      "user_exponent": 1.0
+    },
+    "ml-1m": {
+      "alpha": 0.5,
+      "lambda": 50.0,
+      "user_exponent": 0.0
+    },
+    "retail": {
+      "alpha": 0.5,
+      "lambda": 50.0,
+      "user_exponent": 0.0
+    },
+    "steam": {
+      "alpha": 0.25,
+      "lambda": 500.0,
+      "user_exponent": 0.2
+    }
+  },
+  "RDLAE": {
+    "books": {
+      "lambda": 50.0,
+      "p": 0.5,
+      "xi": 0.5
+    },
+    "cds": {
+      "lambda": 50.0,
+      "p": 0.3,
+      "xi": 0.1
+    },
+    "gowalla": {
+      "lambda": 100.0,
+      "p": 0.9,
+      "xi": 0.1
+    },
+    "ml-1m": {
+      "lambda": 250.0,
+      "p": 0.3,
+      "xi": 0.5
+    },
+    "retail": {
+      "lambda": 500.0,
+      "p": 0.1,
+      "xi": 0.25
+    },
+    "steam": {
+      "lambda": 500.0,
+      "p": 0.7,
+      "xi": 0.1
+    }
+  },
+  "TEA": {
+    "books": {
+      "alpha": 0.25,
+      "lambda": 250.0,
+      "p": 0.7
+    },
+    "cds": {
+      "alpha": 0.125,
+      "lambda": 250.0,
+      "p": 0.7
+    },
+    "gowalla": {
+      "alpha": 0.0,
+      "lambda": 50.0,
+      "p": 0.7
+    },
+    "ml-1m": {
+      "alpha": 0.0,
+      "lambda": 250.0,
+      "p": 0.3
+    },
+    "retail": {
+      "alpha": 0.125,
+      "lambda": 50.0,
+      "p": 0.0
+    },
+    "steam": {
+      "alpha": 0.125,
+      "lambda": 250.0,
+      "p": 0.7
+    }
+  }
+}

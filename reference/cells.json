@@ -1,0 +1,518 @@
+{
+ "books": {
+  "WMF": {
+   "ndcg": "5f6949e8bc136f954b7abaa8b649d1ac12be2cd0c1fd653b05a6e4bc2adf76b3",
+   "recall": "ee2bfbc15f54ba8976921c6c54363fcf463d2392300846efe08d0bcf0fa1e089"
+  },
+  "LightGCN": {
+   "ndcg": "54a489a0050d3cad5fea1da6fc5b5402d5dfb773d281a759c35c32c7fe3b2bdb",
+   "recall": "a3d3ad02f695f53c63f54bbd237aa7ac7fc15f5926eead11abb3844d0ca69591"
+  },
+  "SLIMElastic": {
+   "ndcg": "baca304a48f9c89d37bc1fec1a3cd7a800f9f372413dfac9b9dbf2ff68ba404f",
+   "recall": "6d44336180af6b60e5abc1f208b6ac323233fad214f59e411664863b3e649659"
+  },
+  "ADMMSLIM": {
+   "ndcg": "4e98dca247dfe69ec068cc4e369343d12804f58da290b59f517596c02057bcf9",
+   "recall": "5fae530ed2fd5bb6f927058db0855979e8103eadfff28b778cca8a5b26945f04"
+  },
+  "NCEPLRec": {
+   "ndcg": "be1d93d7323b1349fc1e3783161b327cd64c0cb845d47a7457de7751c398a6d8",
+   "recall": "15e6f840271e185f4e3c0c4e41a4a05d6b37b8af5f7b4f1be00bf09963c2369b"
+  },
+  "RecVAE": {
+   "ndcg": "2a675fef6fdb2debfae70a207ecd7fa691c8441f70f750e6c93dbf406c27f62a",
+   "recall": "57f87553aaae7224ec0ca0ddbbe680e8c75a3ff497d5eaf3bbeecfff553e637e"
+  },
+  "LDA": {
+   "ndcg": "15f3ffa71be4cfb602a45195b0b670f5127b58dc56fd2846f24555b9a2085b06",
+   "recall": "79e4e85c68ceb14872dbafa47cb429d54d38adfedf4212573c72f4902c9ee563",
+   "tq": 0.13981364625791598
+  },
+  "ETM": {
+   "ndcg": "49eaf9d33fc00ef11ebf77f18f2165e094f57888e09162a91da5460eec6d0f49",
+   "recall": "c92f1bf68ae6d9c19a4eb1537633b2fbaf3863f67f6e3d4073e2c6502025bb6a",
+   "tq": 0.13679773296780065
+  },
+  "ECRTM": {
+   "ndcg": "860c71e9fac42985ce8cbec262446b8ef38d2087b091b70f041f5f06b8ee7f6f",
+   "recall": "168f1dd9028af7296eee5cd7df5c4a2e8fed4c9e76670bdb1528c860c8bc0c5a",
+   "tq": 0.19877345798366428
+  },
+  "Mult-VAE": {
+   "ndcg": "0c324fdd3bef8db53f25a457954eded96257143b64b37b158e9aff02992092ec",
+   "recall": "e5536191f1cc3e05f66a0f8d3870daea001d5bb05fc72a61fc5bdf6934762e0a",
+   "tq": 0.06434158846957734
+  },
+  "NMF": {
+   "ndcg": "ff6bf604c0326b1ffe9566703e9c481b269c73d5e611bdcfae46a6c4924b3b5e",
+   "recall": "d1654b9745807561e75ca1831c8fbf0a92cfa3fa90f88964dcd26bb1b93c8784",
+   "tq": 0.16873051938545672
+  },
+  "NMF-ppSPA": {
+   "ndcg": "01ed1a57d815b6206f0acd7b34b03b0833a7835862da6001cff26c166e52f5ae",
+   "recall": "330226fb6ede0ab30567f965a81a445cf2d5366aae9af754c238a9fab1fbfae4",
+   "tq": 0.18746597630938783
+  },
+  "EASE": {
+   "ndcg": "f7e1dea9d1f2be151feda7d342a57e3291de94a01bec0e8d5972fe78e124920b",
+   "recall": "49b9062a20e2c8d1d660782200e9001cccc6960f883a4b7df6f9f823bddc084e",
+   "tq": 0.19066106623546766
+  },
+  "RW": {
+   "ndcg": "371e01a33371e9ad69ea5f8f0bbe8f8b69346c2cdb4bde325336bede884aa493",
+   "recall": "10ad83ebf1d6e53e230d0383f51b0338ae3a8c6afa6a4ef3691530488393997a",
+   "tq": 0.20932545198244493
+  },
+  "Symmetric": {
+   "ndcg": "36e8b5ceb5ed3ecf6fb4452aae0403a26fb4a5a236cda3cdbd3a81e731faf844",
+   "recall": "ae55fe1d5ddb2dc667737267c50d67b1748b9f238bcbd4fd7033765ce7e4c6f6",
+   "tq": 0.32972320023049856
+  },
+  "DAN": {
+   "ndcg": "10fd0547c2784405e19e604e1cfd47d26e49414712f9260683fe9afb1ef4913d",
+   "recall": "49043185c5f14ba1db6e4768fc6cd8324fd70f508b1d2a93b40ff19ef2ed6868",
+   "tq": 0.04586656218492045
+  },
+  "RDLAE": {
+   "ndcg": "3a1d4230c4226278097a17dc4b0a2f54837faa7dde68a0cebfc85541e149b285",
+   "recall": "58b0d7b117bb4f9676532ebadb674d070c2ff0a38a7a417ea4628b985d053ac7",
+   "tq": 0.06846202611010836
+  },
+  "TEA": {
+   "ndcg": "a94de2e283cf965d640c7f93ae51a20ede34bb7e34082f11222840308a326d5b",
+   "recall": "cd0f5f4221618f697e515576ad64203c5f50b6d37be5fade1afe46fdab5a25be",
+   "tq": 0.3311835060654138
+  }
+ },
+ "cds": {
+  "WMF": {
+   "ndcg": "ae8be8350f1b540a48f95c7dcad49d8ec4a9999e5750cd5d1d07ed52189c3f8b",
+   "recall": "25848ec26c09e7815ffb2f43277f4b8914d79237dd352a8ff7f4b688f0f0b7fd"
+  },
+  "LightGCN": {
+   "ndcg": "dc07bf4ce173c8de9a433ad006fe97ee0e7d1db5eef9fd07f1ba031af9b7e019",
+   "recall": "f6960661883a2102f8a79b393a51217751f14a32393d0fbd801eb8e745857786"
+  },
+  "SLIMElastic": {
+   "ndcg": "d8d5324234866e122ab58d4ddada05eb5a3883044206b356f5242eb7784385e6",
+   "recall": "dc09dba3647837ac010915ed3695d9be7eaf91abc0c5aafba34995d4b3b3eeac"
+  },
+  "ADMMSLIM": {
+   "ndcg": "4a3cb2024aea0e961f9d047678205b8dfa547094856b11b7a2bb8a8156ea4fe6",
+   "recall": "249334dddf3df80fc292e596834b03a2b56a2fbdb24ad4fb508e0483206c5911"
+  },
+  "NCEPLRec": {
+   "ndcg": "e6480aa635c1ba022eb610df4072f1d9e9056f4b621e47486b5fa4106ce5027c",
+   "recall": "69c0d3b36ca8a25abae99189b0623b81643cd54a7ba3684a31147f0a5877a8a2"
+  },
+  "RecVAE": {
+   "ndcg": "6925c8f07d65ad29777803513a675a35a61fb96475cf831fb014b0760412b5e2",
+   "recall": "403a02e8f74178ca989530d29c31ee28edab656fcaff384c58642d25aa7125b2"
+  },
+  "LDA": {
+   "ndcg": "022848e05e69f23cecddce0e3e0be5a4a3ed8d3fab121d14af12642bcb9eb299",
+   "recall": "6d40f04f3fc98eb6a5765da3098f8805fe715be1803ebe6b99d2006a7a591765",
+   "tq": 0.12940420373519176
+  },
+  "ETM": {
+   "ndcg": "3023dc35a367c0e298cc4237da5eac0b3e9279318bb3af447565c6f652327d65",
+   "recall": "ee0b323f64f542b847d27740ebe7024ef49a726167448aea0767f8dcdf57b828",
+   "tq": 0.0239782580874957
+  },
+  "ECRTM": {
+   "ndcg": "40b98cae6cdad1c66ef1cd208ade693a919da077cc0ebbc481f997982882b3ba",
+   "recall": "85106b026aa967b8ccc14559bbfe670337566a6ac5e12c9710e5978c0bcfc33e",
+   "tq": 0.14146934228376618
+  },
+  "Mult-VAE": {
+   "ndcg": "57b83fde3afe5d7c6a7865be9334badc1e8153bef2aef54173207c6e0c6ab5a1",
+   "recall": "623c6e88da920770189bb75a95593ee58f6e4bacef098df6b21d51d52433caed",
+   "tq": 0.03873047941072241
+  },
+  "NMF": {
+   "ndcg": "04adf010918a480f8a9a65075025cb65d7a4fcfe9b054ae45d099e94b892a2a6",
+   "recall": "c749c07ab1518657c7039dfa7abf38d3285f6e95b72465c4efc73b996335e694",
+   "tq": 0.2848735351074126
+  },
+  "NMF-ppSPA": {
+   "ndcg": "7049edfbb8b6500f25e99963f6e930180711c3f895d548cb1a51f4de8ee2f73a",
+   "recall": "77b847561411250e7e5969eea1d3ba7f93190bab513aa8df52c5d4ac510ed2df",
+   "tq": 0.16575495049245395
+  },
+  "EASE": {
+   "ndcg": "5c7d6f1729924a6ced86c5a17ae38541b92310c99ad64d66762eb4366a05f07b",
+   "recall": "bd244660b4d89312bd2cd6fec1aa31f57173e5a810968db27ce2aad08f5e1f28",
+   "tq": 0.2190841488502007
+  },
+  "RW": {
+   "ndcg": "610b88ea326d78fd3fd7f6d80d3a5d6b6eb8f133120b017dda96044c457a8e92",
+   "recall": "d6169d4d09327a7e0bf75efcfe6ae8b2d43e6156f3c96668cbeeea8eb3b21300",
+   "tq": 0.2547570371596426
+  },
+  "Symmetric": {
+   "ndcg": "dadd2289b1be985e2612ff5da84958a868068795cb2063d0106961440c5039b7",
+   "recall": "ab670c7cd7750cf4b389aa9d99e055cca25d133d418c96c9895c231e34c145a3",
+   "tq": 0.27236945824126224
+  },
+  "DAN": {
+   "ndcg": "f3ff2ab87ec53c47200afdf9fd324c988952e888e39d0edb1c8a9533bc6de196",
+   "recall": "de8121720f6af18f8753ce3f27d22face4f42e3b5d585f6c572c7b7cecf1e580",
+   "tq": 0.2326537698870144
+  },
+  "RDLAE": {
+   "ndcg": "421cd545d16bd45a38435849c05d09403a469f36df004a3b6bb288e0597ac5fb",
+   "recall": "d83546eb9267ecdc9348d2629dfe714ebeda3fb5946094896d83708bc8e8fb22",
+   "tq": 0.18009195175778678
+  },
+  "TEA": {
+   "ndcg": "93c0a4695f92ec50a5d5720500eede5dda70a689b95349b0b1640af6a1ddf353",
+   "recall": "c9549232a483a133a3694a98494b6691bfb430660c88b71e21a17f54c926ab99",
+   "tq": 0.3801244700520875
+  }
+ },
+ "gowalla": {
+  "WMF": {
+   "ndcg": "1484dc7c3078c3d4f316af05211efa1972fda1f2b80e405cfdb0658495e0ffd8",
+   "recall": "f17ed76324ed77c70bb2fdd64361c9c06e6cb86d7909dd6fcee3be6102439590"
+  },
+  "LightGCN": {
+   "ndcg": "4565b0eef36fbae553393f4f42657401768ddb47a73081cbdd102725cf2209c6",
+   "recall": "e2effa0229b8d2917e8e9e9ecda30f7e880f6533a11548d30a0cb8f503ec5991"
+  },
+  "SLIMElastic": {
+   "ndcg": "02caa6e9d8b93ea843a6d381896fe5c2239121d1e5f546148e9219650c85080f",
+   "recall": "0de602245c0c66152be3d10e4383f2fadc132089613474129ef9f81f4a8467f2"
+  },
+  "ADMMSLIM": {
+   "ndcg": "9f1dfc2133a301ed076b3146b276bac251747038515d77e88982d492c64beac6",
+   "recall": "406e95b17afe7de2ef426cb13f6c09c33ba2f035d36eb08a09567bfd351d5213"
+  },
+  "NCEPLRec": {
+   "ndcg": "fd088c6c9e27e507688eaf2aa3c45f55cc71f03b8cbcf398d7b8d85f8089d3ca",
+   "recall": "065af0cb51ffd1258eb69761a0ded44e1a66704d18f8e6e3dbae99a757b51339"
+  },
+  "RecVAE": {
+   "ndcg": "87c19e38a63608ac70c0d157e28447da70f1701ccb69f537bc9705f35895e6c3",
+   "recall": "b31013bf8816cce82a1cef803c72f2ead7861a6605041ef5dd60effc047ec646"
+  },
+  "LDA": {
+   "ndcg": "d507f5e784c157b1db415938ee7c1a6e0d97e435762a523ecaf61c5b64d6d71f",
+   "recall": "8529a48c0bc0915d7cbc82f8b1fb281f83e43adc166749e505630d1a709126bc",
+   "tq": 0.2996402703763622
+  },
+  "ETM": {
+   "ndcg": "6e77e88dfcd19f4530311a77f7195fd49490ffc1e5fd97466885332880c44080",
+   "recall": "7abdbb8409b5b973da99637679473f752f9ada736135b6e0ff31186478a50d52",
+   "tq": 0.0036556150400031354
+  },
+  "ECRTM": {
+   "ndcg": "02090c47d34a2dff69a3d192025a7dd7f760273d8ac3aefdaa8ff749cc7bdbe7",
+   "recall": "831d747338c0c3d1300ca4361d041f4f31a26e2ac798be9f5c4c41a477d58a8d",
+   "tq": 0.1042904331109166
+  },
+  "Mult-VAE": {
+   "ndcg": "529e0cb2c712bd3a8ef343bdd28d782cbf096744b69b962ac5c267f452faaa6c",
+   "recall": "821e2d8a50c1b26da7cd2b236f1c9cb3374c90ea83644693600c823d3510d87a",
+   "tq": 0.09035355489890898
+  },
+  "NMF": {
+   "ndcg": "a0313ce76e2f4cc9a457bf7110ebff96b0675a153aa43e31b484979559e0952d",
+   "recall": "637e0dcafc4fc770a2f7d0fbf7b7cb612800efa4471cfcd693ae057461e4c59e",
+   "tq": 0.32222084555995834
+  },
+  "NMF-ppSPA": {
+   "ndcg": "ee7455377e4cc11d2065fa452de569e2b2185a640840d7b0b80ad71ffe307cdf",
+   "recall": "1308f8cfbf30aedfa24fe20200d514873bd1b3da93531804203094e0405eb26d",
+   "tq": 0.09388328342527547
+  },
+  "EASE": {
+   "ndcg": "ad1c7e6fc494115b9df2ff56d0633b0b995d3796799f4df66d34bd45268bc694",
+   "recall": "d9cc53dd569e256886f07fde2adba3c2bcb035c69e5cd92d68dae76c50c376a3",
+   "tq": 0.49832584551849685
+  },
+  "RW": {
+   "ndcg": "a33fc545ed0950fb276686c0f74864fa9544414ad4b317077a2e8854bdae633e",
+   "recall": "ced059d3a0bb7cd92eb1b01a1f5e9e618215e03a81ab7d080436c801a126a9e1",
+   "tq": 0.4880881800772766
+  },
+  "Symmetric": {
+   "ndcg": "9c152eaa179b1c484c58458b77d1f21cd2cba8eab2e7e942a5e975dab24bb8da",
+   "recall": "28e8ac797d44b9c0719d176f1b96708ba82927ee42cbe3d8cedd7ae9772de6aa",
+   "tq": 0.4831837220128931
+  },
+  "DAN": {
+   "ndcg": "a33fc545ed0950fb276686c0f74864fa9544414ad4b317077a2e8854bdae633e",
+   "recall": "ced059d3a0bb7cd92eb1b01a1f5e9e618215e03a81ab7d080436c801a126a9e1",
+   "tq": 0.4880881800772766
+  },
+  "RDLAE": {
+   "ndcg": "db829c2ed35b6fb316c7e29e4af3e1924b1fdef15c6bf78e5a3f1009acc0b97e",
+   "recall": "f6d6e7da4fdda940e935755d4075f69239f46181d81aa8201cbe88079b64816c",
+   "tq": 0.3793625375731634
+  },
+  "TEA": {
+   "ndcg": "5cfd7cbb751b0a88db0905c6b99acf98fe07ce68fde01d04295d5f5f6e3f383e",
+   "recall": "a993a79bb1a7196ebba28f8108689374d8bac7755b776c387c403a3f0ca00a32",
+   "tq": 0.508441814109086
+  }
+ },
+ "ml-1m": {
+  "WMF": {
+   "ndcg": "a99aa45a7d49e29a375a8732ad3502667da11be851cda7e4a3cdfc7f7a7aaace",
+   "recall": "c94abf2270d9c330c2d38864265dd3fa114207475e6bbfe38ba9405441f3179c"
+  },
+  "LightGCN": {
+   "ndcg": "a2e37d3328baf5ed09295eb424c9b3530d6b451561dcda727fddbe1c74f7e217",
+   "recall": "c5104fe74a268aea6a30482aff46d97297c8aacf238e60901dd4b0c2705ea6cb"
+  },
+  "SLIMElastic": {
+   "ndcg": "d2dd7cc20c6783d96de05249ab8d120863bbfec4260c135ef393d90fed15f775",
+   "recall": "5905eac933c89acc63c2e9b9d325b372e772b9b217956b01f1e0b0f35fad34b8"
+  },
+  "ADMMSLIM": {
+   "ndcg": "086c2a281daa22d810b343fed98100fb6feccc9093c598176b9429d1e728d838",
+   "recall": "1dc38de582f5658cfa79009cf9822af937ae1a43e648b47b8a47db57f43011dc"
+  },
+  "NCEPLRec": {
+   "ndcg": "c38b604e7dea1e05e8c763d40c7b1d4763510ea71abf439803fc3c10fcecc9f2",
+   "recall": "88a8daa4f0af914af2c648590b7eaeb87828790c4aa5bd7207d0a930686d361f"
+  },
+  "RecVAE": {
+   "ndcg": "5939ff49c51c3dbe43655991ca4199b55913cda7a493738bac45d96bae9ac744",
+   "recall": "a7580fc0861ab5e23ea2a49047cbdcd6442c157a259cb706761c91cdc30322e0"
+  },
+  "LDA": {
+   "ndcg": "d88b83a4c2ab773d10cffdab30626c2ba3bd896ed52c76837985c0664d425bbb",
+   "recall": "06ef010fcb01a294ad94b0d7f4803ca0940b36f8b303a55caa92d2a17f8869f8",
+   "tq": 0.31268015874592325
+  },
+  "ETM": {
+   "ndcg": "c78dcb87126e58db2345736b8650d086d5ecb609f0781d3b3a2c35d3e36b4c01",
+   "recall": "c595320d41a1e0dc4cd81a34260d8a4934db2fdc383165c3da8ef34f87f3fda8",
+   "tq": 0.059508105037298246
+  },
+  "ECRTM": {
+   "ndcg": "eba966e5ca6cfbc0614808765f848b0679a3cfb48503cb89f7e24bbd336974eb",
+   "recall": "7bcf9ff60a088affffefe6572fb844f3aa11b3c11d6d1b987db81c9fd40b8eab",
+   "tq": 0.1546641555298606
+  },
+  "Mult-VAE": {
+   "ndcg": "d82fab508856dadf367911565d144fa9062a3a1dcb906d5b89401901c45329c4",
+   "recall": "3833c1b0eeb12486d7fad99b5ef4797f6265122bcbc6ad0c6cf1bc91b6a3371c",
+   "tq": 0.0924380081331274
+  },
+  "NMF": {
+   "ndcg": "5e7b2fd008b922949b94fbee01f26481406acd7ee4acd4a0f4f0accb6a66e4d3",
+   "recall": "d7d263bf5924cec79a6c4c6cf5dfb778d6e03deaae702f03b43dbfff0fe27a83",
+   "tq": 0.2867126015065993
+  },
+  "NMF-ppSPA": {
+   "ndcg": "a119e1232b7fcdde7cc0503997e5934c15e865f58b91392e6cc3e96ba8ee6183",
+   "recall": "7f627519621f0b9228458c579d9840f3613d41bd193d505c6bd861dc95db4579",
+   "tq": 0.42191708455399274
+  },
+  "EASE": {
+   "ndcg": "d76645a173b1696b022776852ace920c32bc670882b44779bb307400a37fb585",
+   "recall": "d7e65adeb5d5a35f763f7375cf187a53cb1dadc83926c9ebaac19d863a5d82ed",
+   "tq": 0.4945633591580042
+  },
+  "RW": {
+   "ndcg": "0e89c7c6edee5ef5fc2f66588ebd514eccaf7025821bd6b4774496f11b0fddfd",
+   "recall": "6c1e99ca9c2c7b4dbbc69b58c064cf71900866dc10dd991f540cd43cda1edebf",
+   "tq": 0.4071453529979595
+  },
+  "Symmetric": {
+   "ndcg": "cc746004ced8fbb57c2eeff7efebcb07013a78d5a9f7e66fee8b7bf911f418f0",
+   "recall": "ace633c580b8d5183d40d1831c2aa5e90daa3301c0358d28eba8c22db7804cc2",
+   "tq": 0.4785771701524751
+  },
+  "DAN": {
+   "ndcg": "fc8756a7fc89436ea97c37f48f08681ca5ad74d37b7e487c3d623419b86b0bf2",
+   "recall": "6f0799dae6658fe4251808be084da3f97173cc5fa19eab2b52a2cb9b629a795f",
+   "tq": 0.4176135813741166
+  },
+  "RDLAE": {
+   "ndcg": "22fdca3898702f537750357bc7f1cc4b76ff520324b9aa0058c7b83d00254fd3",
+   "recall": "fc9c1124a76bb60d9e222685e530ac8438f94b4f7cdeefa5e866f15ad6e416be",
+   "tq": 0.44612750172980686
+  },
+  "TEA": {
+   "ndcg": "ecc9d326c8a44f7c0ccb50dd5f0a86d8588f03717b481bbc581aa0a27c629571",
+   "recall": "8fa6a55d67fd42cddca6dbbd9caeaacbee839bab860a807113b3b763aa9997a6",
+   "tq": 0.4918690905187931
+  }
+ },
+ "retail": {
+  "WMF": {
+   "ndcg": "345f2569e2b72535ae9839563975c6831eece2e40b182de105ef515e3388d3ee",
+   "recall": "3a90bfc219896d512dac9b85581ce694d30e859b93d8c491f2544c528e633e3a"
+  },
+  "LightGCN": {
+   "ndcg": "bfc40bb62440d58affdad9cda7f8774b455f45370dcb9e2d255e140e909ffc60",
+   "recall": "0162cb9eb2a2cfb6f01be12c0d20ff3b793fa9b00281a0746834a3e9e4a5e4e2"
+  },
+  "SLIMElastic": {
+   "ndcg": "16ff0e2f6b92de16877a59e2af10db5ac022a0ac2d346dbb23483fc0e11227bc",
+   "recall": "0f523ff757b0d5bf0e6960c895a9384b28b0d40519dc52b1865796c89d15eda8"
+  },
+  "ADMMSLIM": {
+   "ndcg": "99285fb0b483febdae34e58cd70f64a21d522517b446d10b2154146d60acf613",
+   "recall": "4241d54abc242ad90daad11010fef143132e557cfafbfd079bc3b4ea67b3dc70"
+  },
+  "NCEPLRec": {
+   "ndcg": "85fb45674eded4f36ee654cd0968d7c2337981ba189a4dfe208d077dd81933ee",
+   "recall": "3b4c53beb2f300187dfd9b4f01d551613f8ca02b47112e598c09fdb7dd04c3d5"
+  },
+  "RecVAE": {
+   "ndcg": "e13c59c3fac7bef4e787e319318a0406f48b4e678072414e6ed866a2a68cc714",
+   "recall": "6d436f128df42034d4b0857e66f72955384b0676b839c503f67afdb403295b81"
+  },
+  "LDA": {
+   "ndcg": "eff8e8a56a7cd05e2018c32dd2e7d659747b95f30b15b4821fb1e574dbf85776",
+   "recall": "bdbef0fa9948fb99656f34b3421fa46effd3968ee30cecd3e28d53504f1f039c",
+   "tq": 0.2973120547546248
+  },
+  "ETM": {
+   "ndcg": "f1ff5a4f9f42d605247e7d57d3ed8b6d33aa3a3600908890bdfbe18e4b39d181",
+   "recall": "17baf82808ac5a193c78dbf958f12c3c6301774abd7960ae48ec5e8a5b26a2d3",
+   "tq": 0.11528033042967323
+  },
+  "ECRTM": {
+   "ndcg": "d460bc873837edf824441fb7d4fbd63929a4920af9262b20676b75bcdab84e4b",
+   "recall": "2eacd26c19c5368f59adc20145557af6469a27179f6cd396ecefc3f0bc929205",
+   "tq": 0.18459652043894534
+  },
+  "Mult-VAE": {
+   "ndcg": "66886f48fc963d218af4ddc7753f61c4a87003aaedd134d1195190f70cac12c9",
+   "recall": "b2ac3e9a3b2d89d3d3dd4888e73c043fbcc3ecce3d6169029209f5aa55afaba7",
+   "tq": 0.1062174197690807
+  },
+  "NMF": {
+   "ndcg": "50895cfb264a42c135e7a334bf159acb84edfe2418def7acf4af2d5c542492d1",
+   "recall": "a489c40117ae6243e922eb4910141059830def19e12cdd10d5189257cf445741",
+   "tq": 0.2734226208341083
+  },
+  "NMF-ppSPA": {
+   "ndcg": "d71c9a81c9e28c3595cefccd7dee0f1f209ecb151f43143bbfe08e0e9b54fdca",
+   "recall": "a1d037cf61a78a7fc4f7488eddb0e5b396601c893cd67e21d13b4d9e756a5541",
+   "tq": 0.34615007996782426
+  },
+  "EASE": {
+   "ndcg": "9197c65412478d0af8825f452c94421249ab03398a9b63230aff3ec2125abfe0",
+   "recall": "30d9d00f7bf0d62db2b042848b94b81492db4706111a70dc73f3c7c09467e5a0",
+   "tq": 0.4592092715672415
+  },
+  "RW": {
+   "ndcg": "2da643eb497f70566f79d075f3d004d569fb09148a98c6108bec74c59476d53b",
+   "recall": "f9d62a649a258844a4d0875342c1fe0fbe1c7183a7d9f32dfc2e4f923028cf29",
+   "tq": 0.2784843935694958
+  },
+  "Symmetric": {
+   "ndcg": "d797f1669500f4681407c961eb5bf4e6c672cc2079338e582ebeab77f01bfdf3",
+   "recall": "d854c555a92b9218c7f5dda8fa8dd7c2bde6bbcc633aa65e8b8e4c303b70f054",
+   "tq": 0.31187979922593156
+  },
+  "DAN": {
+   "ndcg": "f00e83a57e7fd8181087ad5e511f6e74e739ccd5188c35d6f9a96747cbcaf2d2",
+   "recall": "ffa712b39a23068695930af9ce1e9eaf41166412f983a813558ac43df2850f2c",
+   "tq": 0.2846962820709588
+  },
+  "RDLAE": {
+   "ndcg": "0870db00671a74a2a7251da13b3bd81e3a40a343fea45713971f9937f980f2fc",
+   "recall": "d656b3cc21257d9758f7b9bb9eb675fec6a784c0eb3b0a42459b6fd329c24903",
+   "tq": 0.4195461527236312
+  },
+  "TEA": {
+   "ndcg": "4a092470f588e5b2ade2a6b0014551eaa6f24f15183a2e80c1c6a87701d2b3a1",
+   "recall": "3725b1229c8f506577a22c1e0f52e44f6c62310f3ba4bfa73ed3795bd1a9f188",
+   "tq": 0.4722773463644527
+  }
+ },
+ "steam": {
+  "WMF": {
+   "ndcg": "d61773afbc76c2c3145159ffe53b901de231233e6c877af720b9ea7215430f92",
+   "recall": "d462d577f502c5964243982ecbadc2069cc6ed707cd4de8e3cf46772cae1e981"
+  },
+  "LightGCN": {
+   "ndcg": "8e05a696d7b8f3e941e0dcbcd559b082fce70ee9ca20f72acf8ae8f672d3c101",
+   "recall": "88d30e7fe04511bd01cf8437a13c5131efc49c13fc79f8b8585e85a83c814053"
+  },
+  "SLIMElastic": {
+   "ndcg": "4561544578866959bd03411207497a7dead39ce53b86334f34c3f3802a6213b3",
+   "recall": "dab0a46f0105f294c2ea03e9b380c269289b3723af1b87cefe9c5bd20bb9e36d"
+  },
+  "ADMMSLIM": {
+   "ndcg": "ef7c0b18d7253f15834241de84728314c25c6e43681fbf4c2b5d7236a874d128",
+   "recall": "0bb02cc73f60cd4ba595272ed9fdc3c74468533bfb05a2d2f4a45d83ab4303f5"
+  },
+  "NCEPLRec": {
+   "ndcg": "a108bb3c9ad215826610dcc170e70e7a74b265ef57bbfb954e806199d0efb2e2",
+   "recall": "21f69c3d9fad3b005a74fe5e881856df76cf03c1b983c8ffaa0614bb08ec3bab"
+  },
+  "RecVAE": {
+   "ndcg": "8a27e2d40f309131c6ff8b274bd0475449814b3ee13bb79c93bdb8b6d02c2d61",
+   "recall": "e151627b4033585267b90ff640a37684d339306f9e4685b8b8a1b872454abe98"
+  },
+  "LDA": {
+   "ndcg": "625966478c62f83e7dd80615bf0945ccf1a2aed5dd7aca9d9ec3bd80011c0e98",
+   "recall": "31f9d288cc1ac6a167a962400278c1f795b3f6f390041fab31271de315ae37d5",
+   "tq": 0.17852475931011502
+  },
+  "ETM": {
+   "ndcg": "e1217037fca6424260205f0fa011e051072c527cac06b9e10c93f04d83baa9ca",
+   "recall": "bd78b9e198b2f7408699dcb0570b8bae427b87ab9c6f48d88b9b6fc91c9b20d2",
+   "tq": 0.04637345406186967
+  },
+  "ECRTM": {
+   "ndcg": "c8c206f8e9a5646f76cfcf0b522df49b5547c0258b2f717fe98e50118df7f0b9",
+   "recall": "221f2e1def11cba9007c079b3b0d2d2b3bae4a69222f90d41aba8385151c3545",
+   "tq": 0.02753926968299919
+  },
+  "Mult-VAE": {
+   "ndcg": "f8d84cadf48704f38cc3f7f3ab2d9f10fdae01e27d5cab54da4d923537abdba5",
+   "recall": "3b851b6cf6b6e555b3b43f45bc897e93591a16604a8265a55b692e1e72b65f31",
+   "tq": 0.06882354768564607
+  },
+  "NMF": {
+   "ndcg": "bce5d0544e02cd29c6e50d688a55542087ace43443e47068b45168a8fe261d45",
+   "recall": "cf356006d83fd03b359099c2a6ec0bf47aaa70c5bd20815f6e20d746d317138a",
+   "tq": 0.13852186276136072
+  },
+  "NMF-ppSPA": {
+   "ndcg": "63bea4e8c5d1562bd2db05a5c9e733c544d8823648c4b7b491b19ca89db41458",
+   "recall": "a4ea959bb1ec64dd82bc9df44c611a879aef1bd1ac3a5bd26dd63940ad918c3f",
+   "tq": 0.11718568659660852
+  },
+  "EASE": {
+   "ndcg": "ac42c04503ede757b3513d9d82e4710b28b3fb4c1182e92381830757a91f0b3b",
+   "recall": "f2581617edcdf1523195266a070c5c81beaa4daa688605ed2c935b9aacf4f3c8",
+   "tq": 0.12990686832158643
+  },
+  "RW": {
+   "ndcg": "72b7b12ab16b704ffbf274ad2af41b5fe1d1b8b43bb8736947dc9ac0ea2b13bb",
+   "recall": "bd0cc86f7c298baa83847138b27021b41e03ea1ac833fedbc898a6524dfe0b5b",
+   "tq": 0.18779873230230323
+  },
+  "Symmetric": {
+   "ndcg": "c9f9edd9299eaec243edfb2e39448a69ef6974d2e6db044ee3aba95c02cf8899",
+   "recall": "b81d3b33ad42f132148584ed11bdd388aa892e6a3c12fab132c1e85c6a106c3a",
+   "tq": 0.23112510848742246
+  },
+  "DAN": {
+   "ndcg": "a6b5013751c2efedb010c1f979ab8f29b2ef72c1b7523abb662fd3d1bfad14fa",
+   "recall": "1af6c82b2b1c32dc4c8cd7d2586c875725884ca5dffa725f35a99b11535d8ae7",
+   "tq": 0.037314237177761236
+  },
+  "RDLAE": {
+   "ndcg": "232abedabcb12d683aeb22c0c454523d33959bb79e080d4e78e88d6bd849aabe",
+   "recall": "c71377d3d0b658230ab977266d7f42fc4401a80c2abbb56ff4a843570a90dae5",
+   "tq": 0.12783111534139563
+  },
+  "TEA": {
+   "ndcg": "8495e155fd3b83766a153e88057ca11a74a094cb549ddb71266fd8b7f497fbf7",
+   "recall": "57d01a7a3a30560f3b30ad7ad3f0c2606c5b2d143a05246d2a11b437fbe8c021",
+   "tq": 0.29010853382452695
+  }
+ }
+}

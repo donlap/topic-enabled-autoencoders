@@ -1,0 +1,44 @@
+Parts of this repository adapt the code of the works below or follow their implementations.
+
+RecBole
+MIT License, Copyright (c) 2020 RUCAIBox
+https://github.com/RUCAIBox/RecBole
+SLIMElastic and ADMMSLIM in src/tea/classical/slim.py, NCE-PLRec in src/tea/classical/nceplrec.py, and RecVAE in
+src/tea/neural/recvae.py follow the RecBole implementations.
+
+Embedded Topic Model
+MIT License, Copyright (c) 2019 Adji B. Dieng, Francisco J. R. Ruiz, David M. Blei
+https://github.com/adjidieng/ETM
+The encoder, the reparameterization, and the topic matrix of ETM in src/tea/neural/topic_models.py follow the ETM code.
+
+ECRTM
+https://github.com/BobXWu/ECRTM
+ECRTM in src/tea/neural/topic_models.py follows the paper and the implementation of the authors:
+X. Wu, X. Dong, T. T. Nguyen, and A. T. Luu. Effective Neural Topic Modeling with Embedding Clustering Regularization.
+ICML 2023.
+
+ppSPA
+https://github.com/gabrielmoryoussef/VertexHunting
+ppSPA in src/tea/ppspa.py follows the paper and the implementation of the authors:
+J. Jin, Z. T. Ke, G. Moryoussef, J. Tang, and J. Wang. Improved Algorithm and Bounds for Successive Projection.
+ICLR 2024.
+
+The MIT License of RecBole and of the Embedded Topic Model:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

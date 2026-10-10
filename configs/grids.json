@@ -1,0 +1,453 @@
+{
+  "WMF": {
+    "axes": [
+      [
+        "factors",
+        [
+          64,
+          128
+        ]
+      ],
+      [
+        "regularization",
+        [
+          0.01,
+          0.1
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "LightGCN": {
+    "axes": [
+      [
+        "learning_rate",
+        [
+          0.001,
+          0.01
+        ]
+      ],
+      [
+        "layers",
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "SLIMElastic": {
+    "axes": [
+      [
+        "alpha",
+        [
+          0.01,
+          0.05,
+          0.1
+        ]
+      ],
+      [
+        "l1_ratio",
+        [
+          0.001,
+          0.01,
+          0.1
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "ADMMSLIM": {
+    "axes": [
+      [
+        "lambda1",
+        [
+          0.5,
+          1.0,
+          5.0
+        ]
+      ],
+      [
+        "lambda2",
+        [
+          50.0,
+          200.0,
+          500.0
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "NCEPLRec": {
+    "axes": [
+      [
+        "regularization",
+        [
+          100.0,
+          1000.0,
+          10000.0
+        ]
+      ],
+      [
+        "rank",
+        [
+          200,
+          400
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "RecVAE": {
+    "axes": [
+      [
+        "latent_dim",
+        [
+          128,
+          200
+        ]
+      ],
+      [
+        "gamma",
+        [
+          0.0025,
+          0.005
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "LDA": {
+    "axes": [
+      [
+        "max_iter",
+        [
+          20,
+          100
+        ]
+      ],
+      [
+        "doc_topic_prior",
+        [
+          null,
+          0.05,
+          0.5
+        ]
+      ],
+      [
+        "topic_word_prior",
+        [
+          null,
+          0.01,
+          0.1
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "ETM": {
+    "axes": [
+      [
+        "learning_rate",
+        [
+          0.002,
+          0.005,
+          0.01
+        ]
+      ],
+      [
+        "hidden_size",
+        [
+          400,
+          800
+        ]
+      ],
+      [
+        "dropout",
+        [
+          0.0,
+          0.5
+        ]
+      ],
+      [
+        "kl_weight",
+        [
+          0.1,
+          0.2,
+          0.5
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "ECRTM": {
+    "axes": [
+      [
+        "learning_rate",
+        [
+          0.002,
+          0.005
+        ]
+      ],
+      [
+        "temperature",
+        [
+          0.1,
+          0.2
+        ]
+      ],
+      [
+        "ecr_weight",
+        [
+          20.0,
+          50.0,
+          200.0
+        ]
+      ],
+      [
+        "kl_weight",
+        [
+          0.1,
+          0.2,
+          0.5
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "Mult-VAE": {
+    "axes": [
+      [
+        "learning_rate",
+        [
+          0.0005,
+          0.001,
+          0.003
+        ]
+      ],
+      [
+        "kl_weight",
+        [
+          0.1,
+          0.2,
+          0.5
+        ]
+      ],
+      [
+        "dropout",
+        [
+          0.0,
+          0.5
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "NMF": {
+    "axes": [
+      [
+        "alpha",
+        [
+          0.0,
+          0.01,
+          0.1
+        ]
+      ],
+      [
+        "l1_ratio",
+        [
+          0.0,
+          0.5,
+          1.0
+        ]
+      ],
+      [
+        "init",
+        [
+          "nndsvd",
+          "nndsvda"
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": true
+  },
+  "NMF-ppSPA": {
+    "axes": [
+      [
+        "alpha",
+        [
+          0.0,
+          0.01,
+          0.1
+        ]
+      ],
+      [
+        "l1_ratio",
+        [
+          0.0,
+          0.5,
+          1.0
+        ]
+      ],
+      [
+        "init",
+        [
+          "nndsvd",
+          "nndsvda"
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": true
+  },
+  "EASE": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "RW": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "Symmetric": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "DAN": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ],
+      [
+        "alpha",
+        [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ]
+      ],
+      [
+        "user_exponent",
+        [
+          0.0,
+          0.2,
+          0.5,
+          1.0
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "RDLAE": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ],
+      [
+        "p",
+        [
+          0.1,
+          0.3,
+          0.5,
+          0.7,
+          0.9
+        ]
+      ],
+      [
+        "xi",
+        [
+          0.1,
+          0.25,
+          0.5
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  },
+  "TEA": {
+    "axes": [
+      [
+        "lambda",
+        [
+          50.0,
+          100.0,
+          250.0,
+          500.0,
+          1000.0
+        ]
+      ],
+      [
+        "alpha",
+        [
+          -0.5,
+          -0.375,
+          -0.25,
+          -0.125,
+          0.0,
+          0.125,
+          0.25,
+          0.375,
+          0.5
+        ]
+      ],
+      [
+        "p",
+        [
+          0.0,
+          0.3,
+          0.5,
+          0.7
+        ]
+      ]
+    ],
+    "zero_alpha_has_no_l1": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "baseline_minus_autoencoder": {
+  "at_most": 0.001
+ },
+ "tea_ndcg_ml1m_retail": {
+  "at_most": 0.004
+ },
+ "tea_recall": {
+  "at_most": 0.01
+ },
+ "decrease_ml1m": {
+  "percent": 55
+ },
+ "decrease_steam": {
+  "percent": 36
+ }
+}
