@@ -125,9 +125,9 @@ The code is released under the MIT License.
 If you use this code, please cite our paper:
 
 ```bibtex
-@article{anonymous2026discovering,
+@article{srisoparp2026discovering,
   title   = {Discovering Topics from Linear Autoencoders},
-  author  = {Anonymous},
+  author  = {Srisoparp, Jutiyakhun and Ponnoprat, Donlapark},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026},
   url     = {https://arxiv.org/abs/XXXX.XXXXX}
