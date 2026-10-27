@@ -128,8 +128,8 @@ If you use this code, please cite our paper:
 @article{srisoparp2026discovering,
   title   = {Discovering Topics from Linear Autoencoders},
   author  = {Srisoparp, Jutiyakhun and Ponnoprat, Donlapark},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2610.34739},
   year    = {2026},
-  url     = {https://arxiv.org/abs/XXXX.XXXXX}
+  url     = {http://arxiv.org/abs/2610.34739}
 }
 ```
