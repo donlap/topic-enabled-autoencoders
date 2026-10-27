@@ -9,33 +9,28 @@ The weight matrix of TEA also gives a topic model of the items, with no addition
   <img alt="The users of the cds dataset as points, colored by their topics" src="figures/user-map-light.png">
 </picture>
 
-We provide:
+This repository provides:
 
 - an implementation of TEA in [`src/tea/tea.py`](src/tea/tea.py), with the extraction of the topics in [`src/tea/topics.py`](src/tea/topics.py) and [`src/tea/ppspa.py`](src/tea/ppspa.py),
 - implementations of the 17 other methods of Table 1 in [`src/tea/linear.py`](src/tea/linear.py), [`src/tea/classical/`](src/tea/classical), and [`src/tea/neural/`](src/tea/neural),
-- the download, filtering, and split of the six datasets in [`src/tea/data/`](src/tea/data),
+- the download and preprocessing of the six datasets in [`src/tea/data/`](src/tea/data),
 - one script in [`scripts/`](scripts) for each table and figure of the paper.
 
 ## Installation
 
-The code needs Python 3.12.
 To install the package with the versions of the dependencies that we used, run:
 
 ```
-python3.12 -m venv .venv
+python3 -m venv .venv
 .venv/bin/pip install --require-hashes -r requirements.txt
 .venv/bin/pip install --no-deps -e .
 ```
-
-The last digits of the results depend on these versions.
 
 To draw the figure above, also install UMAP:
 
 ```
 .venv/bin/pip install --require-hashes -r requirements-figure.txt
 ```
-
-To draw Figure 2 in the fonts of the paper, install LaTeX with the `libertine` and `newtx` packages.
 
 ## Usage
 
